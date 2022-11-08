@@ -1,0 +1,84 @@
+/* === GLOBAL === * /
+/* Position all div's absolute to stop repeating CSS */
+:root {
+    --bannerWidth: 300px;
+    --bannerHeight: 250px;
+    --audibleBlue: linear-gradient(187.89deg, #1E2B33 -10.66%, #3A4CE3 64.93%);
+    --audibleTransform: rotate(-180deg);
+}
+
+body,
+body * {
+    vertical-align: baseline;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+div,
+img {
+    position: absolute;
+    background-repeat: no-repeat;
+    width: var(--bannerWidth);
+    height: var(--bannerHeight);
+}
+
+.exitBtn {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 9;
+}
+
+/* === AD SIZE === */
+
+#container {
+    width: var(--bannerWidth);
+    height: var(--bannerHeight);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* === FRAME ELEMENTS === */
+.background {
+    height: 100%;
+    opacity: 1;
+    background: var(--audibleBlue);
+    transform: var(--audibleTransform);
+}
+
+/* === COPY ELEMENTS === */
+
+/* === Section 1 === */
+
+.section1 {
+    width: var(--bannerWidth);
+    height: var(--bannerHeight);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+#s1_logo {
+    opacity: 1;
+}
+
+/* === Section 2 === */
+
+.section2 {
+    width: var(--bannerWidth);
+    height: var(--bannerHeight);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+
+#s2_logo {
+    opacity: 1;
+}
