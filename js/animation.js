@@ -41,16 +41,6 @@ function startAnimation() {
         }
     }
 
-    //Frame 1 Animations
-    // Audible Animation
-
-    var tl = gsap.timeline({repeat: 2, repeatDelay: 1});
-        tl.from("#s1_logo", {x: 100, duration: 1});
-        tl.to("#s1_headline", {x: 100, duration: 1});
-        tl.fromTo("#s1_bookwall1", {x: 100, duration: 1});
-        tl.fromTo("#s1_bookwall2", {x: 100, duration: 1});
-        tl.fromTo("#s1_cta", {x: 100, duration: 1});
-
     // Actimel Animation
     // for (var i = 1; i <= noOfCopyElements; ++i) {
 
@@ -59,11 +49,6 @@ function startAnimation() {
     // frameTL
     //     .fromTo(textNumber, {x: xPosition(textNumber), y: yPosition(textNumber), opacity: 1, filter: blur}, {x: 0, y: 0, opacity: 1, filter: "blur(0px)"}, parameter)
     // }    
-
-    //Frame 2 Animations
-    // Audible Animation
-
-
 
     // Actimel Animation
     // frameTL
