@@ -1,45 +1,53 @@
 //MAIN ANIMATION
 function startAnimation() {
 
-    //Variable Declarations
-    let xFrom;
-    let yFrom;
+    //Audible Animation
+    var tl = gsap.timeline({repeat: 2, repeatDelay: 0.5});
+    tl.fromTo("#s1_logo", {x: 0, opacity: 0}, {opacity: 1, ease: "power4.inOut", duration: 1, x: 0, delay: 0.2});
+    tl.fromTo("#s1_text1, #s1_text2", {x: -200}, {duration: 1, x: 0, delay: 0.2});
+    tl.fromTo("#s1_text3, #s1_text4", {x: -200}, {duration: 1, x: 0, delay: 0.2});
+    tl.fromTo("#s1_img1, #s1_img2", {x: 400}, {ease: "back.out(1.2)", duration: 1, x: 0, delay: 0.2});
+    tl.fromTo("#s1_cta", {y: 400}, {duration: 1, y: 0, delay: 0.2});
 
-    //Determine Frame Height/Width Variables
-    const frameHeight = document.getElementById("container").offsetHeight;
-    const frameWidth = document.getElementById("container").offsetWidth;
+    // //Variable Declarations
+    // let xFrom;
+    // let yFrom;
 
-    //Animation Variables
-    const parameter = ">-0.2";
-    const blur = "blur(5px)"
+    // //Determine Frame Height/Width Variables
+    // const frameHeight = document.getElementById("container").offsetHeight;
+    // const frameWidth = document.getElementById("container").offsetWidth;
 
-    //Animation Timeline
-    const frameTL = gsap.timeline({defaults: {duration: animationDuration, ease: "expo.out"}});
+    // //Animation Variables
+    // const parameter = ">-0.2";
+    // const blur = "blur(5px)"
 
-    //Positioning functions for Elements
-    function xPosition(element) {
-        if (element.direction === "right") {
-            return frameWidth;
-        } else if (element.direction === "left") {
-            return -Math.abs(frameWidth);
-        } else if (element.direction === "top") {
-            return 0;
-        } else if (element.direction === "bottom") {
-            return 0;
-        }
-    }
+    // //Animation Timeline
+    // const frameTL = gsap.timeline({defaults: {duration: animationDuration, ease: "expo.out"}});
 
-    function yPosition(element) {
-        if (element.direction === "right") {
-            return 0;
-        } else if (element.direction === "left") {
-            return 0;
-        } else if (element.direction === "top") {
-            return -Math.abs(frameHeight);
-        } else if (element.direction === "bottom") {
-            return frameHeight;
-        }
-    }
+    // //Positioning functions for Elements
+    // function xPosition(element) {
+    //     if (element.direction === "right") {
+    //         return frameWidth;
+    //     } else if (element.direction === "left") {
+    //         return -Math.abs(frameWidth);
+    //     } else if (element.direction === "top") {
+    //         return 0;
+    //     } else if (element.direction === "bottom") {
+    //         return 0;
+    //     }
+    // }
+
+    // function yPosition(element) {
+    //     if (element.direction === "right") {
+    //         return 0;
+    //     } else if (element.direction === "left") {
+    //         return 0;
+    //     } else if (element.direction === "top") {
+    //         return -Math.abs(frameHeight);
+    //     } else if (element.direction === "bottom") {
+    //         return frameHeight;
+    //     }
+    // }
 
     // Actimel Animation
     // for (var i = 1; i <= noOfCopyElements; ++i) {
@@ -73,3 +81,5 @@ function startAnimation() {
     //     //check animation duration
     //     console.log("total duration: " + frameTL.duration());
     }
+
+    startAnimation();
