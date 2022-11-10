@@ -41,12 +41,6 @@ function startAnimation() {
         }
     }
 
-    //Frame 1 Animations
-    // Audible Animation
-
-    const tl = gsap.timeline(); 
-    tl.to("s1_logo", { duration: 1, x: 100 })
-
     // Actimel Animation
     // for (var i = 1; i <= noOfCopyElements; ++i) {
 
@@ -55,11 +49,6 @@ function startAnimation() {
     // frameTL
     //     .fromTo(textNumber, {x: xPosition(textNumber), y: yPosition(textNumber), opacity: 1, filter: blur}, {x: 0, y: 0, opacity: 1, filter: "blur(0px)"}, parameter)
     // }    
-
-    //Frame 2 Animations
-    // Audible Animation
-
-
 
     // Actimel Animation
     // frameTL
