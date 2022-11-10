@@ -11,6 +11,7 @@ function startAnimation() {
     tl.fromTo("#s1_img1", {x: 400}, {ease: "back.out(1.2)", duration: 0.6, x: 0}, "<0.3");
     tl.fromTo("#s1_img2", {x: 400}, {ease: "back.out(1.2)", duration: 0.6, x: 0}, "<0.3");
     tl.fromTo("#s1_cta", {y: 400}, {ease: "back.out(0.9)", duration: 0.6, y: 0}, "<0.3");
+    tl.fromTo("#s1_disclaimer", {y: 0, opacity: 0}, {opacity: 1, ease: "power2.out", duration: 0.6, y: 0}, "<0.3");
 
 }
 

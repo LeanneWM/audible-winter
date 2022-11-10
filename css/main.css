@@ -22,8 +22,6 @@
     font-display: swap;
 }
 
-
-
 /* === GLOBAL === * /
 /* Position all div's absolute to stop repeating CSS */
 :root {
@@ -148,6 +146,16 @@ img {
     color: white;
 }
 
+.sectionDisclaimer {
+    font-family: 'Audible Sans Rg';
+    position: absolute;
+    left: 23px;
+    bottom: 16.93px;
+    font-size: 7.01162px;
+    line-height: 95%;
+    color: #FFFFFF;
+}
+
 button {
     width: 97px;
     height: 27px;
@@ -157,20 +165,4 @@ button {
     background: #FF8909;
     border-radius: 25.0049px;
     font-family: "Audible Sans Rg";
-}
-
-/* === Section 2 === */
-
-.section2 {
-    width: var(--bannerWidth);
-    height: var(--bannerHeight);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-}
-
-#s2_logo {
-    opacity: 1;
 }
