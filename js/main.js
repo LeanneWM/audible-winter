@@ -20,7 +20,7 @@ function init() {
     function loadAd() {
 
         //Load through dynamic content from feed
-        dynamicContentData();
+        // dynamicContentData();
 
         //Init Exits and extra listeners
         addListeners();
@@ -31,7 +31,7 @@ function init() {
         });
 
         //Load Video
-        loadVideo();
+        // loadVideo();
 
     }
 }
@@ -49,14 +49,6 @@ function addListeners() {
     //Clickthrough Exits
     clickThroughExit.addEventListener("click", onExitHandler);
 
-    //Track video complete and midpoint counters
-    s2_video.addEventListener('started', function () {
-        counters("started")
-    }, false);
-    s2_video.addEventListener('timeupdate', videoMidpoint);
-    s2_video.addEventListener('ended', function () {
-        counters("complete")
-    }, false);
 }
 
 //Exits

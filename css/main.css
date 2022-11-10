@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'Audible Sans Bd';
+    src: url('../assets/fonts/AudibleSans-Bd.eot'),
+        url('../assets/fonts/AudibleSans-Bd.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/AudibleSans-Bd.woff2') format('woff2'),
+        url('../assets/fonts/AudibleSans-Bd.woff') format('woff'),
+        url('../assets/fonts/AudibleSans-Bd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Audible Sans Rg';
+    src: url('../assets/fonts/AudibleSans-Rg.eot'),
+        url('../assets/fonts/AudibleSans-Rg.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/AudibleSans-Rg.woff2') format('woff2'),
+        url('../assets/fonts/AudibleSans-Rg.woff') format('woff'),
+        url('../assets/fonts/AudibleSans-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 /* === GLOBAL === * /
 /* Position all div's absolute to stop repeating CSS */
 :root {
@@ -22,6 +48,8 @@ img {
     background-repeat: no-repeat;
     width: var(--bannerWidth);
     height: var(--bannerHeight);
+    left: 0;
+    top: 0;
 }
 
 .exitBtn {
@@ -61,10 +89,74 @@ img {
     left: 0;
     right: 0;
     opacity: 0;
+    opacity: 1;
 }
 
 #s1_logo {
     opacity: 1;
+}
+
+.sectionCopy1 {
+    font-family: 'Audible Sans Bd';
+    position: absolute;
+    width: 161px;
+    height: 106px;
+    left: 22px;
+    top: 47px;
+    font-size: 35px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #FF8909;
+}
+
+.sectionCopy2 {
+    font-family: 'Audible Sans Bd';
+    position: absolute;
+    width: 161px;
+    height: 106px;
+    left: 22px;
+    top: 80px;
+    font-size: 35px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #FF8909;
+}
+
+.sectionCopy3 {
+    font-family: 'Audible Sans Bd';
+    position: absolute;
+    width: 161px;
+    height: 106px;
+    left: 22px;
+    top: 113px;
+    font-size: 35px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.sectionCopy4 {
+    font-family: 'Audible Sans Bd';
+    position: absolute;
+    width: 161px;
+    height: 106px;
+    left: 22px;
+    top: 146px;
+    font-size: 35px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: white;
+}
+
+button {
+    width: 97px;
+    height: 27px;
+    left: 22px;
+    top: 190px;
+    position: absolute;
+    background: #FF8909;
+    border-radius: 25.0049px;
+    font-family: "Audible Sans Rg";
 }
 
 /* === Section 2 === */
