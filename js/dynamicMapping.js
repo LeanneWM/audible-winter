@@ -60,60 +60,20 @@ function dynamicContentData() {
     devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_text4.Type = "file";
     devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_text4.Url = "";
     devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_text_4_direction = "bottom";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_bk1 = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_bk1.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_bk1.Url = "https://github.com/LeanneWM/audible-winter/blob/main/assets/images/bookwall1.png?raw=true";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_bk1_direction = "left";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_bk2 = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_bk2.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_bk2.Url = "https://github.com/LeanneWM/audible-winter/blob/main/assets/images/bookwall2.png?raw=true";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_bk2_direction = "bottom";
+    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_img1 = {};
+    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_img1.Type = "file";
+    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_img1.Url = "https://github.com/LeanneWM/audible-winter/blob/main/assets/images/bookwall1.png?raw=true";
+    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_img1_direction = "left";
+    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_img2 = {};
+    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_img2.Type = "file";
+    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_img2.Url = "https://github.com/LeanneWM/audible-winter/blob/main/assets/images/bookwall2.png?raw=true";
+    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_img2_direction = "bottom";
     devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_cta = {};
     devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_cta.Type = "file";
     devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_cta.Url = "https://github.com/LeanneWM/audible-winter/blob/main/assets/images/cta.png?raw=true";
     devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_disclaimer = {};
     devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_disclaimer.Type = "file";
     devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s1_disclaimer.Url = "https://github.com/LeanneWM/audible-winter/blob/main/assets/images/disclaimer.png?raw=true";
-    
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bg = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bg.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bg.Url = "";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_logo = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_logo.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_logo.Url = "";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_headline = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_headline.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_headline.Url = "";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text1 = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text1.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text1.Url = "";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text_1_direction = "top";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text2 = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text2.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text2.Url = "";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text_2_direction = "right";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text3 = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text3.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text3.Url = "";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text_3_direction = "left";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text4 = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text4.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text4.Url = "";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_text_4_direction = "bottom";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bk1 = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bk1.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bk1.Url = "";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bk1_direction = "left";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bk2 = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bk2.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bk2.Url = "";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_bk2_direction = "bottom";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_cta = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_cta.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_cta.Url = "";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_disclaimer = {};
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_disclaimer.Type = "file";
-    devDynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0].s2_disclaimer.Url = "";
 
     Enabler.setDevDynamicContent(devDynamicContent);
     feedContent = dynamicContent.UKI_EDP_Actimel_All_ActimelQ3Captify0822_Awareness_NA_Yes_all_sizes[0];
@@ -140,36 +100,12 @@ function assignDynamicContent() {
     s1_text2.src = feedContent.s1_text2.Url;
     s1_text3.src = feedContent.s1_text3.Url;
     s1_text4.src = feedContent.s1_text4.Url;
-    s1_bk1.src = feedContent.s1_bk1.Url;
-    s1_bk2.src = feedContent.s1_bk2.Url;
+    s1_img1.src = feedContent.s1_img1.Url;
+    s1_img2.src = feedContent.s1_img2.Url;
     s1_bk_hor.src = feedContent.s1_bk_hor.Url;
     s1_bk_ver.src = feedContent.s1_bk_ver.Url;
     s1_cta.src = feedContent.s1_cta.Url;
     s1_disclaimer.src = feedContent.s1_disclaimer.Url;
-
-    s1_text1.direction = feedContent.s1_text_1_direction;
-    s1_text2.direction = feedContent.s1_text_2_direction;
-    s1_text3.direction = feedContent.s1_text_3_direction;
-    s1_text4.direction = feedContent.s1_text_4_direction;
-
-    //Section Two Elements
-    s2_logo.src = feedContent.s2_logo.Url;
-    s2_headline.src = feedContent.s2_headline.Url;
-    s2_text1.src = feedContent.s2_text1.Url;
-    s2_text2.src = feedContent.s2_text2.Url;
-    s2_text3.src = feedContent.s2_text3.Url;
-    s2_text4.src = feedContent.s2_text4.Url;
-    s2_bk1.src = feedContent.s2_bk1.Url;
-    s2_bk2.src = feedContent.s2_bk2.Url;
-    s2_bk_hor.src = feedContent.s2_bk_hor.Url;
-    s2_bk_ver.src = feedContent.s2_bk_ver.Url;
-    s2_cta.src = feedContent.s2_cta.Url;
-    s2_disclaimer.src = feedContent.s2_disclaimer.Url;
-
-    s2_text1.direction = feedContent.s2_text_1_direction;
-    s2_text2.direction = feedContent.s2_text_2_direction;
-    s2_text3.direction = feedContent.s2_text_3_direction;
-    s2_text4.direction = feedContent.s2_text_4_direction;
 
     //When dynamic content has loaded, start ad
     startAd()
