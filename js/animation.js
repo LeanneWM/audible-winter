@@ -2,12 +2,14 @@
 function startAnimation() {
 
     //Audible Animation
-    var tl = gsap.timeline({repeat: 2, repeatDelay: 0.5});
-    tl.fromTo("#s1_logo", {x: 0, opacity: 0}, {opacity: 1, ease: "power4.inOut", duration: 1, x: 0, delay: 0.2});
-    tl.fromTo("#s1_text1, #s1_text2", {x: -200}, {duration: 1, x: 0, delay: 0.2});
-    tl.fromTo("#s1_text3, #s1_text4", {x: -200}, {duration: 1, x: 0, delay: 0.2});
-    tl.fromTo("#s1_img1, #s1_img2", {x: 400}, {ease: "back.out(1.2)", duration: 1, x: 0, delay: 0.2});
-    tl.fromTo("#s1_cta", {y: 400}, {duration: 1, y: 0, delay: 0.2});
+    var tl = gsap.timeline({repeat: 1, repeatDelay: 1});
+    tl.to("#s1_logo", {duration: 0.6, x: 0,});
+    tl.fromTo("#s1_text1", {x: -200}, {duration: 0.6, x: 0});
+    tl.fromTo("#s1_text2", {x: -200}, {duration: 0.6, x: 0});
+    tl.fromTo("#s1_text3", {x: -200}, {duration: 0.6, x: 0});
+    tl.fromTo("#s1_text4", {x: -200}, {duration: 0.6, x: 0});
+    tl.fromTo("#s1_img1, #s1_img2", {x: 400}, {ease: "back.out(1.2)", duration: 1, x: 0});
+    tl.fromTo("#s1_cta", {y: 400}, {duration: 0.6, y: 0});
 
     // //Variable Declarations
     // let xFrom;
